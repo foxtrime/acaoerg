@@ -21,14 +21,25 @@
             <img border="0" src="img/uniabeu.png">
             </td>
             <td align="right" class="titulo">
-            <fieldset>
-            <form method="post" action="buscar.php" name="buscaIndex">
+
+
+            
+            <form class="form-inline pull-xs-right" method="post" action="buscar.php" name="buscaIndex">
+                <input class="form-control" type="text" name="busca" type="text" onfocus="mudacor(this,'#BDE4F4')" onblur="mudacor(this,'white')">
+                    <button class="btn btn-outline-info" type="submit">Buscar</button>
+            </form>
+
+
+          <!--   <form method="post" action="buscar.php" name="buscaIndex">
             Buscar: <input name="busca" type="text" onfocus="mudacor(this,'#BDE4F4')" onblur="mudacor(this,'white')">
                     <input type="submit" value="Buscar">
-            </form>
-            </fieldset>
+            </form> -->
             </td>
         </tr>
+
+
+
+
         <tr>
             <td>
             <div align="right" class="menuSup">

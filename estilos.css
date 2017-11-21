@@ -253,4 +253,23 @@ a:link {
   cursor: pointer;
 }
 
+.btn-outline-info {
+    color: #B4C5D6;
+    background-image: none;
+    background-color: transparent;
+    border-color: #B4C5D6;
+    padding: 0.20rem 0.75rem;
+    border-radius: 0.25rem;
+    cursor:pointer;
+  }
 
+  .form-control {
+    padding: 0.3rem 0.75rem;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+}
