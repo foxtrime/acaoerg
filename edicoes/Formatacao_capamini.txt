@@ -1,0 +1,15 @@
+Formatação IMG capamini.jpg (revstaOnLine)
+
+largura sem sombra: 200
+com sombra:         205
+
+FIREWORKS
+
+Fundo:
+#dddddd
+
+Inner Glow
+3, 40%, 10, 0 
+
+Drop Shadow
+7, 65%, 4, 315

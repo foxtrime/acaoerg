@@ -1,0 +1,37 @@
+body {
+	margin: 0px;
+	padding-top: 20px;
+	padding-right: 80px;
+	padding-bottom: 20px;
+	padding-left: 80px;
+}
+
+#topo { width: 100%; position: relative; left: 0px; top: 0px; margin-bottom: 10px;}
+
+#menulateral {  float: left; width: 16%; background-color: #CCFF00; text-align: center; font-family: Arial, Helvetica, sans-serif; color: #FFFFFF; line-height: 150%; font-weight: bold; margin: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px}
+
+#menuEdicoes {  background-color: #003399; margin-top: 5px;   border-width: 0px;}
+
+.itemMenu { color: #003399; width: 100%; text-decoration: none}
+.itemMenuSelecionado { background-color: #003399; color: #FFFFFF; }
+
+.itemMenuEdicoes { margin-left: 8px; background-color: #CCFF00;  color: #003399; text-decoration: none; border-style: none}
+.itemMenuEdicoesSelecionado {background-color: #003399; width: 100%; color: #FFFFFF; text-decoration: none; border-style: none;}
+
+#menuBusca {  background-color: #003399; margin-top: 5px; color: #FFFFFF; text-align: center; border-width: 0px;}
+.itemMenuBusca { margin-left: 8px; background-color: #CCFF00; color: #003399;  }
+#menuLateral form {  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px}
+
+#conteudo { width: 84%; background-color: #cccc00; float: right; font-family: Arial, Helvetica, sans-serif;  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; line-height: 150%; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;} 
+
+
+#figuraCapa { float: right; clear: none;  padding: 0px; width: 180px;  }
+
+input { margin-bottom: 2px;}
+#botao { margin-top: 4px;}
+#menulateral a {  color: #003399; text-decoration: none;}
+.texto { width : 90%; }
+form {line-height: 100%;}
+
+
+#miolo {  background-color: #9999ff; float:left;  }

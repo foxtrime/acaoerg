@@ -1,0 +1,27 @@
+body{
+	text-align:center;
+	background:#FFF;
+	font-family:verdana,arial,helvetica,sans-serif;
+	font-size:80%;
+	margin:0px;
+	padding:0px
+}
+
+#conteudo {  text-align: left; margin: 100px auto 10px; border-right: 2px solid #FFCC66; border-bottom: 2px solid #FFCC66; border-left: 2px solid #FFCC66; width: 400px }
+
+
+
+
+.item   { position: absolute; visibility: hidden }
+	  
+.caixa   { color: #FFFFFF; font-size: 12px; text-decoration: none; background-color: #669; text-align: center; padding: 5px; position: relative; top: 0px; left: 0px; display: block }
+.menu a  { color: #FFFFFF; font-size: 12px; text-decoration: none; background-color: #669; text-align: center; padding: 5px; position: relative; top: 0px; left: 0px; display: block }
+.menu a:hover { color: #000000; background-color: #CCFF00; border: solid 1px yellow }
+.menu   { float: left; width: 50% }
+a span{
+	display:none
+}
+
+h3 { margin: 15px }
+.botao  { background-color: #d1def0; margin-right: 30px; margin-left: 30px; border: solid 0px }
+input { margin-right: 5px; margin-left: 5px }

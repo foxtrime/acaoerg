@@ -1,0 +1,17 @@
+			<div id="retificar">
+			<h3>Retificar Exemplares</h3>
+			<form  name="retificar" action="executa.php" method="post">
+				<br /><label for="codigoDoExemplar">Exemplar</label>
+				<?php 
+					$sql = "SELECT * FROM exemplar";
+						conectar($conexao);
+						query($conexao,$sql,$resultado);									
+						eco($tab++,"<select id=\"codigoDoExemplar\" name=\"codigoDoExemplar\">\n");
+						while ($linha = mysql_fetch_array($resultado)){
+							eco($tab,"<option value=\"".$linha['codigoDoExemplar']."\">vol. ".$linha['volumeDoExemplar']." # ".$linha['numeroDoExemplar']."</option>\n");
+						}
+					eco(--$tab,"</select>\n");
+				?>				
+				<br /><br /><input type="submit" value="Retificar">
+ 			</form>
+			</div>

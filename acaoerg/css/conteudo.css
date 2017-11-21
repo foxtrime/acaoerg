@@ -1,0 +1,41 @@
+body {	font-size: 8pt; background-color: #ffffff; color: #000000;  margin: 20px; padding: 0px; border: 0px}
+strong{
+font-size:120%;
+
+}
+
+#conteudo { width: 99%; 
+						font-family: Verdana, Arial, Helvetica, sans-serif;
+						margin: 0px;
+						padding: 0px;		
+						line-height: 150%;
+						border: 0px;} 
+
+
+input {  text-indent: 0px; margin-top: 3px; margin-left: 15px; margin-right: 15px; margin-bottom: 2px;}
+select {  text-indent: 0px; margin-top: 3px; margin-left: 5px; margin-right: 5px; margin-bottom: 2px;}
+#botao2 {  text-indent: 0px; margin-top: 3px;}
+.texto { width : 90%; }
+form {line-height: 100%;}
+
+.itemMenuBusca { background-color: #C9E4FA;  text-indent: 15px; }
+a{
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+img{
+vertical-align: middle
+}
+
+#emPublicacao{
+	background-color:#FFF3C6;
+}
+
+#exemplaresPublicados{
+	background-color:#ECECF4;
+}
+p{
+	margin-top: -2px;
+}

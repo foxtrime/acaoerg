@@ -1,0 +1,587 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1046\deflangfe1046{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f14\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}
+{\f370\froman\fcharset238\fprq2 Times New Roman CE;}{\f371\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f373\froman\fcharset161\fprq2 Times New Roman Greek;}{\f374\froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f375\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f376\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f377\froman\fcharset186\fprq2 Times New Roman Baltic;}{\f378\fswiss\fcharset238\fprq2 Arial CE;}
+{\f379\fswiss\fcharset204\fprq2 Arial Cyr;}{\f381\fswiss\fcharset161\fprq2 Arial Greek;}{\f382\fswiss\fcharset162\fprq2 Arial Tur;}{\f383\fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f384\fswiss\fcharset178\fprq2 Arial (Arabic);}
+{\f385\fswiss\fcharset186\fprq2 Arial Baltic;}{\f386\fmodern\fcharset238\fprq1 Courier New CE;}{\f387\fmodern\fcharset204\fprq1 Courier New Cyr;}{\f389\fmodern\fcharset161\fprq1 Courier New Greek;}{\f390\fmodern\fcharset162\fprq1 Courier New Tur;}
+{\f391\fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f392\fmodern\fcharset178\fprq1 Courier New (Arabic);}{\f393\fmodern\fcharset186\fprq1 Courier New Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;
+\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;
+\red128\green128\blue128;\red192\green192\blue192;\red230\green230\blue230;}{\stylesheet{\ql \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \snext0 Normal;}{
+\s1\ql \fi-432\li432\ri0\sb240\sa60\keepn\nowidctlpar\jclisttab\tx432\faauto\ls18\outlinelevel0\adjustright\rin0\lin432\itap0 \b\fs26\lang1046\langfe1046\kerning32\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext0 heading 1;}{
+\s2\ql \fi-576\li576\ri0\keepn\nowidctlpar\jclisttab\tx576\faauto\ls18\ilvl1\outlinelevel1\adjustright\rin0\lin576\itap0 \b\i\fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext0 heading 2;}{\s3\ql \fi-720\li720\ri0\keepn\nowidctlpar
+\jclisttab\tx720\faauto\ls18\ilvl2\outlinelevel2\adjustright\rin0\lin720\itap0 \i\fs24\lang1024\langfe1024\cgrid\noproof\langnp1046\langfenp1046 \sbasedon0 \snext0 heading 3;}{\s4\ql \fi-864\li864\ri0\keepn\nowidctlpar
+\jclisttab\tx864\faauto\ls18\ilvl3\outlinelevel3\adjustright\rin0\lin864\itap0 \i\fs24\lang1033\langfe1046\cgrid\langnp1033\langfenp1046 \sbasedon0 \snext0 heading 4;}{\s5\ql \fi-1008\li1008\ri0\sb240\sa60\nowidctlpar
+\jclisttab\tx1008\faauto\ls18\ilvl4\outlinelevel4\adjustright\rin0\lin1008\itap0 \b\i\fs26\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext0 heading 5;}{\s6\ql \fi-1152\li1152\ri0\sb240\sa60\nowidctlpar
+\jclisttab\tx1152\faauto\ls18\ilvl5\outlinelevel5\adjustright\rin0\lin1152\itap0 \b\fs22\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext0 heading 6;}{\s7\ql \fi-1296\li1296\ri0\sb240\sa60\nowidctlpar
+\jclisttab\tx1296\faauto\ls18\ilvl6\outlinelevel6\adjustright\rin0\lin1296\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext0 heading 7;}{\s8\ql \fi-1440\li1440\ri0\sb240\sa60\nowidctlpar
+\jclisttab\tx1440\faauto\ls18\ilvl7\outlinelevel7\adjustright\rin0\lin1440\itap0 \i\fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext0 heading 8;}{\s9\ql \fi-1584\li1584\ri0\sb240\sa60\nowidctlpar
+\jclisttab\tx1584\faauto\ls18\ilvl8\outlinelevel8\adjustright\rin0\lin1584\itap0 \f1\fs22\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext0 heading 9;}{\*\cs10 \additive Default Paragraph Font;}{
+\s15\qc \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \b\fs20\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext0 caption;}{\s16\qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 
+\fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext16 Body Text;}{\s17\ql \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext17 footnote text;}{\*\cs18 
+\additive \super \sbasedon10 footnote reference;}{\s19\qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext19 Body Text 2;}{
+\s20\qj \li708\ri585\nowidctlpar\faauto\adjustright\rin585\lin708\itap0 \cbpat17 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext20 Block Text;}{\s21\qj \fi360\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 
+\fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext21 Body Text Indent 2;}{\s22\ql \fi540\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext22 
+Body Text Indent 3;}{\*\cs23 \additive \ul\cf2 \sbasedon10 Hyperlink;}{\s24\qc \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \b\fs28\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 \sbasedon0 \snext24 Title;}{\*\cs25 \additive \ul\cf12 
+\sbasedon10 FollowedHyperlink;}}{\*\listtable{\list\listtemplateid-1514607414\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550657
+\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li360\jclisttab\tx360 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li1440\jclisttab\tx1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li2160\jclisttab\tx2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid68550657\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li2880\jclisttab\tx2880 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li3600\jclisttab\tx3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li4320\jclisttab\tx4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550657\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li5040\jclisttab\tx5040 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li5760\jclisttab\tx5760 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li6480\jclisttab\tx6480 }
+{\listname ;}\listid34743126}{\list\listtemplateid-441910842\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat2\levelspace0\levelindent0{\leveltext\leveltemplateid1610492484\'01-;}{\levelnumbers;}
+\loch\af0\hich\af0\dbch\af0\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li1068\jclisttab\tx1068 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li1788\jclisttab\tx1788 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li2508\jclisttab\tx2508 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid68550657\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li3228\jclisttab\tx3228 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li3948\jclisttab\tx3948 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li4668\jclisttab\tx4668 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550657\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li5388\jclisttab\tx5388 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li6108\jclisttab\tx6108 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li6828\jclisttab\tx6828 }
+{\listname ;}\listid42292930}{\list\listtemplateid1964786700\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550671\'02\'00.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li720\jclisttab\tx720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550681\'02\'01.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1440\jclisttab\tx1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'02.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li2160\jclisttab\tx2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550671\'02\'03.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2880\jclisttab\tx2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550681\'02\'04.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3600\jclisttab\tx3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'05.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li4320\jclisttab\tx4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550671\'02\'06.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5040\jclisttab\tx5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550681\'02\'07.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5760\jclisttab\tx5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'08.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li6480\jclisttab\tx6480 }{\listname ;}\listid104665236}{\list\listtemplateid-1537862784\listhybrid{\listlevel\levelnfc2\levelnfcn2\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360
+\levelindent0{\leveltext\leveltemplateid412281078\'03(\'00);}{\levelnumbers\'02;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-720\li1080\jclisttab\tx1080 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid1903723378\'02\'01);}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li1440\jclisttab\tx1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'02.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li2160\jclisttab\tx2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550671\'02\'03.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2880\jclisttab\tx2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550681\'02\'04.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3600\jclisttab\tx3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'05.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li4320\jclisttab\tx4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550671\'02\'06.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5040\jclisttab\tx5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550681\'02\'07.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5760\jclisttab\tx5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'08.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li6480\jclisttab\tx6480 }{\listname ;}\listid193808220}{\list\listtemplateid1715100422
+{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03\'00  ;}{\levelnumbers\'01;}\b\i0\strike0\shad0\embo0\impr0\caps0\v0\f0\fs32\nosupersub\striked0\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1\fbias0 \s1\fi-432\li432\jclisttab\tx432 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat4\levelspace0\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1\fbias0 \s2\fi-576\li576\jclisttab\tx576 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \s3\fi-720\li720\jclisttab\tx720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'07\'00.\'01.\'02.\'03;}{\levelnumbers
+\'01\'03\'05\'07;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \s4\fi-864\li864\jclisttab\tx864 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers\'01\'03\'05\'07\'09;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \s5\fi-1008\li1008\jclisttab\tx1008 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \s6\fi-1152\li1152\jclisttab\tx1152 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \s7\fi-1296\li1296\jclisttab\tx1296 }{\listlevel
+\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1\fbias0 \s8\fi-1440\li1440\jclisttab\tx1440 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers
+\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \s9\fi-1584\li1584\jclisttab\tx1584 }{\listname ;}\listid211844262}{\list\listtemplateid-1103080098\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat4\levelspace0\levelindent0{\leveltext\leveltemplateid68550673\'02\'00);}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li720\jclisttab\tx720 }{\listlevel\levelnfc4\levelnfcn4
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550681\'02\'01.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1440\jclisttab\tx1440 }{\listlevel\levelnfc2\levelnfcn2
+\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'02.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li2160\jclisttab\tx2160 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550671\'02\'03.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2880\jclisttab\tx2880 }{\listlevel\levelnfc4\levelnfcn4
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550681\'02\'04.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3600\jclisttab\tx3600 }{\listlevel\levelnfc2\levelnfcn2
+\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'05.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li4320\jclisttab\tx4320 }{\listlevel\levelnfc0\levelnfcn0
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550671\'02\'06.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5040\jclisttab\tx5040 }{\listlevel\levelnfc4\levelnfcn4
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550681\'02\'07.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5760\jclisttab\tx5760 }{\listlevel\levelnfc2\levelnfcn2
+\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'08.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li6480\jclisttab\tx6480 }{\listname ;}\listid506601483}
+{\list\listtemplateid1350994618\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat2\levelspace0\levelindent0{\leveltext\leveltemplateid-1324192190\'01-;}{\levelnumbers;}\ul\loch\af0\hich\af0\dbch\af0\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li1350\jclisttab\tx1350 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2
+\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li2070\jclisttab\tx2070 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550661
+\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li2790\jclisttab\tx2790 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid68550657\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li3510\jclisttab\tx3510 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li4230\jclisttab\tx4230 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li4950\jclisttab\tx4950 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550657\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li5670\jclisttab\tx5670 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li6390\jclisttab\tx6390 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li7110\jclisttab\tx7110 }{\listname ;}\listid1037467138
+}{\list\listtemplateid1648017406\listhybrid{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid116193726\'02\'00);}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li720\jclisttab\tx720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550681\'02\'01.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1440\jclisttab\tx1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'02.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li2160\jclisttab\tx2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550671\'02\'03.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2880\jclisttab\tx2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550681\'02\'04.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3600\jclisttab\tx3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'05.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li4320\jclisttab\tx4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550671\'02\'06.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5040\jclisttab\tx5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550681\'02\'07.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5760\jclisttab\tx5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'08.;}{\levelnumbers\'01;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li6480\jclisttab\tx6480 }{\listname ;}\listid1173765585}{\list\listtemplateid893789694\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat2\levelspace0
+\levelindent0{\leveltext\leveltemplateid1543561464\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li1350\jclisttab\tx1350 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li2070\jclisttab\tx2070 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li2790\jclisttab\tx2790 }{\listlevel\levelnfc23
+\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550657\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li3510\jclisttab\tx3510 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li4230
+\jclisttab\tx4230 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 
+\fi-360\li4950\jclisttab\tx4950 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550657\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li5670\jclisttab\tx5670 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li6390\jclisttab\tx6390 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers
+;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li7110\jclisttab\tx7110 }{\listname ;}\listid1222474345}{\list\listtemplateid-1926716840\listhybrid{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid116193726\'02\'00);}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li720\jclisttab\tx720 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550681\'02\'01.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li1440\jclisttab\tx1440 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'02.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li2160\jclisttab\tx2160 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550671\'02\'03.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li2880\jclisttab\tx2880 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550681\'02\'04.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li3600\jclisttab\tx3600 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'05.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li4320\jclisttab\tx4320 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550671\'02\'06.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5040\jclisttab\tx5040 }{\listlevel\levelnfc4\levelnfcn4\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550681\'02\'07.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-360\li5760\jclisttab\tx5760 }{\listlevel\levelnfc2\levelnfcn2\leveljc2\leveljcn2\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550683\'02\'08.;}{\levelnumbers\'01;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1 \fi-180\li6480\jclisttab\tx6480 }{\listname ;}\listid1311792900}{\list\listtemplateid2034149310
+\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550657\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 
+\fi-360\li1170\jclisttab\tx1170 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 
+\chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li2250\jclisttab\tx2250 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li2970\jclisttab\tx2970 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550657\'01\u-3913 ?;}{\levelnumbers
+;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li3690\jclisttab\tx3690 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550659
+\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li4410\jclisttab\tx4410 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li5130\jclisttab\tx5130 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid68550657\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li5850\jclisttab\tx5850 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li6570\jclisttab\tx6570 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li7290\jclisttab\tx7290 }{\listname ;}\listid1591814968}
+{\list\listtemplateid2034149310\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid-2118113946\'01-;}{\levelnumbers;}\loch\af0\hich\af0\dbch\af0\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li1170\jclisttab\tx1170 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2
+\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li2250\jclisttab\tx2250 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550661
+\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li2970\jclisttab\tx2970 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\leveltemplateid68550657\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li3690\jclisttab\tx3690 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0
+\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li4410\jclisttab\tx4410 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li5130\jclisttab\tx5130 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550657\'01\u-3913 ?;}{\levelnumbers;}\f3\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li5850\jclisttab\tx5850 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0
+\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550659\'01o;}{\levelnumbers;}\f2\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li6570\jclisttab\tx6570 }{\listlevel\levelnfc23\levelnfcn23\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\leveltemplateid68550661\'01\u-3929 ?;}{\levelnumbers;}\f14\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-360\li7290\jclisttab\tx7290 }{\listname ;}\listid1630286715
+}{\list\listtemplateid-1582124210{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03\'00  ;}{\levelnumbers\'01;}\b\i0\strike0\shad0\embo0\impr0\caps0\v0\f0\fs28\nosupersub\striked0\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-432\li432\jclisttab\tx432 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'03\'00.\'01;}{\levelnumbers\'01\'03;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-576\li576\jclisttab\tx576 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'05\'00.\'01.\'02;}{\levelnumbers\'01\'03\'05;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-720\li720\jclisttab\tx720 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'07\'00.\'01.\'02.\'03;}{\levelnumbers\'01\'03\'05\'07;}
+\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-864\li864\jclisttab\tx864 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'09\'00.\'01.\'02.\'03.\'04;}{\levelnumbers
+\'01\'03\'05\'07\'09;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-1008\li1008\jclisttab\tx1008 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'0b\'00.\'01.\'02.\'03.\'04.\'05;}{\levelnumbers\'01\'03\'05\'07\'09\'0b;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-1152\li1152\jclisttab\tx1152 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1
+\levelspace0\levelindent0{\leveltext\'0d\'00.\'01.\'02.\'03.\'04.\'05.\'06;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-1296\li1296\jclisttab\tx1296 }{\listlevel\levelnfc0\levelnfcn0\leveljc0
+\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'0f\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f;}\chbrdr\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-1440\li1440
+\jclisttab\tx1440 }{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'11\'00.\'01.\'02.\'03.\'04.\'05.\'06.\'07.\'08;}{\levelnumbers\'01\'03\'05\'07\'09\'0b\'0d\'0f\'11;}\chbrdr
+\brdrnone\brdrcf1 \chshdng0\chcfpat1\chcbpat1\fbias0 \fi-1584\li1584\jclisttab\tx1584 }{\listname ;}\listid1863547856}}{\*\listoverridetable{\listoverride\listid1863547856\listoverridecount0\ls1}{\listoverride\listid1863547856\listoverridecount0\ls2}
+{\listoverride\listid1863547856\listoverridecount0\ls3}{\listoverride\listid1863547856\listoverridecount0\ls4}{\listoverride\listid506601483\listoverridecount0\ls5}{\listoverride\listid1311792900\listoverridecount0\ls6}{\listoverride\listid1173765585
+\listoverridecount0\ls7}{\listoverride\listid34743126\listoverridecount0\ls8}{\listoverride\listid1591814968\listoverridecount0\ls9}{\listoverride\listid1630286715\listoverridecount0\ls10}{\listoverride\listid1037467138\listoverridecount0\ls11}
+{\listoverride\listid1222474345\listoverridecount0\ls12}{\listoverride\listid104665236\listoverridecount0\ls13}{\listoverride\listid42292930\listoverridecount0\ls14}{\listoverride\listid193808220\listoverridecount0\ls15}{\listoverride\listid211844262
+\listoverridecount0\ls16}{\listoverride\listid211844262\listoverridecount0\ls17}{\listoverride\listid211844262\listoverridecount0\ls18}{\listoverride\listid211844262\listoverridecount9{\lfolevel\listoverridestartat\levelstartat4}{\lfolevel
+\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat
+\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}{\lfolevel\listoverridestartat\levelstartat1}\ls19}{\listoverride\listid211844262\listoverridecount0\ls20}{\listoverride\listid211844262\listoverridecount0\ls21}{\listoverride\listid211844262
+\listoverridecount0\ls22}}{\info{\title  Que deve fazer um editor}{\author Mario Cesar Vidal}{\operator GENTE}{\creatim\yr2003\mo3\dy18\hr16\min1}{\revtim\yr2003\mo4\dy2\hr13\min36}{\version6}{\edmins203}{\nofpages13}{\nofwords5483}{\nofchars31256}
+{\*\company Home}{\nofcharsws0}{\vern8249}}\paperw11907\paperh16840\margl1418\margr1418\margt1418\margb1418 \deftab708\widowctrl\ftnbj\aenddoc\hyphhotz425\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\hyphcaps0\formshade\horzdoc\dgmargin
+\dghspace90\dgvspace245\dghorigin1418\dgvorigin1418\dghshow0\dgvshow1\jexpand\viewkind1\viewscale100\pgbrdrhead\pgbrdrfoot\splytwnine\ftnlytwnine\htmautsp\nolnhtadjtbl\useltbaln\alntblind\lytcalctblwd\lyttblrtgr\lnbrkrule \fet0\sectd 
+\psz9\linex0\colsx708\endnhere\sectlinegrid245\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}
+{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \s24\qc \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 
+\b\fs28\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {Guia para publica\'e7\'e3o de artigos em A\'e7\'e3o Ergon\'f4mica
+\par }\pard\plain \qc \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {\b\fs28 
+\par 
+\par }{\b Mario Cesar Vidal
+\par }{\fs20 Editor de A\'e7\'e3o Ergon\'f4mica
+\par }{\b\fs20 
+\par }{\b\fs22 Jos\'e9 Mario Beniflah Carv\'e3o}{\b\fs20 
+\par }{\fs20 Editor assistente de A\'e7\'e3o Ergon\'f4mica
+\par }{\field\flddirty{\*\fldinst {\fs20  HYPERLINK "mailto:Revista@ergonomia.ufrj.br" }{\fs20 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b02000000170000001a000000520065007600690073007400610040006500720067006f006e006f006d00690061002e007500660072006a002e00620072000000e0c9ea79f9bace118c8200aa004ba90b420000006d00610069006c0074006f003a00520065007600690073007400
+610040006500720067006f006e006f006d00690061002e007500660072006a002e006200720000000000000000}}}{\fldrslt {\cs23\fs20\ul\cf2 Revista@ergonomia.ufrj.br}}}{\fs20 
+\par }{\b\fs20 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par 
+\par {\listtext\pard\plain\s1 \b\fs32\kerning32 \hich\af0\dbch\af0\loch\f0 1  \tab}}\pard\plain \s1\qj \fi-432\li432\ri0\sb240\sa60\keepn\nowidctlpar\jclisttab\tx432\faauto\ls18\outlinelevel0\adjustright\rin0\lin432\itap0 
+\b\fs26\lang1046\langfe1046\kerning32\cgrid\langnp1046\langfenp1046 {Apresenta\'e7\'e3o
+\par }\pard\plain \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {\cf1 O objetivo deste artigo \'e9 tecer alguns coment\'e1rios sobre o processo de constru\'e7\'e3o de artigos cient\'ed
+ficos e indicar algumas diretrizes para auxiliar os autores atuais e potenciais de A\'e7\'e3o Ergonomica na busca de suas publica\'e7\'f5es em peri\'f3dicos cientificos. Ele adv\'e9m de uma preocupa\'e7\'e3o anterior de buscar a ml\'e7ehoria do padr\'e3
+o redacional de relat\'f3rios t\'e9cnicos (Feitosa, 1986), e das teses de mestrado (Feitosa e Vidal, 1991). O interesse deste trabalho est\'e1 em que em nossos tempos a publica\'e7\'e3o cient\'edfica deixa de ser um luxo, para se tornar um elemento b\'e1
+sico de forma\'e7\'e3o universit\'e1ria, especialmente em quarto grau. E observamos que existem no Brasil poucas publica\'e7\'f5es neste sentido, em face de uma copiosa lista de referencias em l\'edngua inglesa.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {O artigo surgiu da necessidade de formar um quadro de orienta\'e7\'e3
+o tanto para autores como para  integrantes do corpo editorial da revista . Sua atualidade portanto consistiria em ajudar os autores na produ\'e7\'e3o de  bons artigos para a revista em quest\'e3o. Entretanto, na medida em que o desenvolv\'ed
+amos, fomos nos apercebendo de sua utilidade mais ampla, que nos levou n\'e3o apenas \'e0 sua disponibiliza\'e7\'e3o na p\'e1gina WEB da Revista, como incorpor\'e1-lo a seu teor impresso e finalmente a submet\'ea-la a u  peri\'f3
+dico mais apropriado por sua natureza e potencial de difus\'e3o..
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {O teor do artigo se baseou inicialmente no Manual de publica\'e7\'f5es da Associa\'e7\'e3o Americana de Psicologia (APA), padr\'e3
+o adotado pela maioria das revistas cientificas internacionais e indexadas. A esta compila\'e7\'e3o acrescentamos elementos e coment\'e1rios advindos de nossa experi\'eancia como editor, co-autor e orientador de v\'e1rios alunos em p\'f3s-gradua\'e7\'e3
+o na COPPE e em outras universidades, o que lhe formou um car\'e1ter de originalidade e de pertin\'eancia ao caso brasileiro.. 
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Iniciaremos o artigo com uma breve contextualiza\'e7\'e3o acerca da natureza do artigo cient\'edfico. Em seguida comentaremos os tipos convencionados de artigo (reporte emp\'ed
+rico, revis\'e3o e te\'f3rico), para em seguida tecermos alguns elementos b\'e1sicos acerca da qualidade de um artigo cient\'edfico. Conclu\'edmos  o artigo com uma s\'edntese dos encaminhamentos desenvolvidos ao longo do texto. 
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {  
+\par {\listtext\pard\plain\s1 \b\fs32\kerning32 \hich\af0\dbch\af0\loch\f0 2  \tab}}\pard\plain \s1\qj \fi-432\li432\ri0\sb240\sa60\keepn\nowidctlpar\jclisttab\tx432\faauto\ls18\outlinelevel0\adjustright\rin0\lin432\itap0 
+\b\fs26\lang1046\langfe1046\kerning32\cgrid\langnp1046\langfenp1046 {A natureza do artigo cientifico
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par }\pard \qj \fi720\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Segundo a Associa\'e7\'e3o Americana de Psicologia (APA, 2000), a pesquisa somente se completa no momento em que valo
+rizamos seus resultados, compartilhando-os com a comunidade cientifica. O artigo no peri\'f3dico cientifico \'e9 o m\'e9todo mais tradicional e mais recomendado para esta atividade de valoriza\'e7\'e3o. Todo peri\'f3
+dico busca ser referencia em seu campo, ou seja, que possa vir a ser o reposit\'f3rio de parte do conhecimento cient\'edfico em seu campo editorial. 
+\par 
+\par As refer\'eancias s\'e3o importantes na economia cientifica. A familiaridade de um  autor com a literatura de seu campo de estudos,  possibilita  evitar  repeti\'e7\'e3o de trabalho
+s.  Com isso o autor pode contribuir ao debate em aberto com alguma nova evid\'eancia, com algum novo elemento, quem sabe, com alguma descoberta. Por outro lado, as refer\'eancias criam intimidade do pesquisador com o meio cientifico e lhe permitem conhec
+\'ea-lo a ponto de poder contribuir com seu avan\'e7o e dissemina\'e7\'e3o. E para o autor em forma\'e7\'e3o, a experi\'eancia de fazer seu artigo \'e9 insubstitu\'edvel: n\'e3
+o existe melhor meio para se apreender algo sobre alguma coisa, para clarear e organizar as id\'e9ias acerca dessa coisa, do que a tentativa de explic\'e1-las a um terceiro. 
+\par 
+\par Durante algum tempo os trabalhos de teses, as monografias de conclus\'e3o de curso foram consideradas como trabalhos suficientes. Mais adiante, o pr\'f3prio desenvolvimento do sistema brasileiro de ci\'eancia e tecnologia nos propiciou a multiplica\'e7
+\'e3o de eventos e congressos. Um pesquisador produtivo passou a dispor de um espa\'e7o de tr\'eas a seis publica\'e7\'f5es anuais com os congressos existentes. Nos nossos dias esse esfor\'e7o passa a ser dirigido \'e0s publica\'e7\'f5es em revistas cient
+\'edficas, cujo numero, em termos mundiais \'e9 enorme. Em outras palavras sustentaremos que existe espa\'e7o para publica\'e7\'e3o da boa pesquisa em v\'e1rios peri\'f3dicos, independentemente de sua cota\'e7\'e3o, assunto que, por ora, n\'e3
+o consideraremos como relevante. 
+\par 
+\par Para o estudante de p\'f3s-gradua\'e7\'e3o, a publica\'e7\'e3o em peri\'f3dicos \'e9 poss\'edvel e acess\'edvel em algum peri\'f3dico existente seja em portugu\'eas, seja em alguma l\'edngua estrangeira.  Meu conselho para o estudante \'e9 o de n\'e3
+o se preocupar demasiadamente com a suposta qualidade do ve\'edculo \endash  esse \'e9 um problema dos avaliadores de supostas qualidades ou excel\'eancias. O que a pessoa em forma\'e7\'e3o deve ter em mente, a meu ver, \'e9 o fato de que a organiza\'e7
+\'e3o de um manuscrito cientifico \'e9 em si mesma uma possibilidade de organizar seu pensamento l\'f3gico, clarear seu esfor\'e7o de pesquisa e nesse sentido \'e9 parte inalien\'e1vel de sua forma\'e7\'e3o. E esta parte tem um sentido maior, que \'e9
+ o de ajudar aos demais colegas, pois qualquer campo cientifico tem sua vitalidade mensurada pela qualidade de seus eventos, mas igualmente pela quantidade e qualidade de suas publica\'e7\'f5
+es. Escrever um artigo lhe ajuda a crescer e ajuda seus colegas e escreverem, pois ter\'e3o em seu artigo um exemplo, um est\'edmulo e um modelo, \'e9 o que digo a meus alunos.
+\par 
+\par A natureza de um artigo cient\'edfico \'e9 comunicar os resultados de uma pesquisa, sejam eles finais ou parciais. Eles s\'e3o partes do processo de pesquisa e permitem avaliar se a pesquisa atende aos requisitos de um mestrado, de um doutorado.
+\par }\pard \qj \li2292\ri0\nowidctlpar\faauto\adjustright\rin0\lin2292\itap0 {
+\par {\listtext\pard\plain\s1 \b\fs32\kerning32 \hich\af0\dbch\af0\loch\f0 3  \tab}}\pard\plain \s1\qj \fi-432\li432\ri0\sb240\sa60\keepn\nowidctlpar\jclisttab\tx432\faauto\ls18\outlinelevel0\adjustright\rin0\lin432\itap0 
+\b\fs26\lang1046\langfe1046\kerning32\cgrid\langnp1046\langfenp1046 {Tipos de artigos
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par \tab Os principais tipos de artigos s\'e3o  as comunica\'e7\'f5es de resultados emp\'edricos, os artigos de revis\'e3o e os artigos te\'f3ricos. Examinemos estes tr\'eas tipos em detalhe sugerindo alguns encaminhamentos para os autores.
+\par 
+\par {\listtext\pard\plain\s2 \b\i \hich\af0\dbch\af0\loch\f0 3.4\tab}}\pard\plain \s2\qj \fi-576\li576\ri0\keepn\nowidctlpar\jclisttab\tx576\faauto\ls18\ilvl1\outlinelevel1\adjustright\rin0\lin576\itap0 
+\b\i\fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {As comunica\'e7\'f5es de resultados emp\'edricos
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par }\pard\plain \s16\qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {\tab As comunica\'e7\'f5es de resultados emp\'edricos transmitem os esfor\'e7
+os de trabalhos originais, em geral pesquisas de doutorado. Em ergonomia elas se caracterizam por sete conte\'fados-tipo: (i) apresenta\'e7\'e3o, (ii) contextualiza\'e7\'e3o, (iii) quadro te\'f3rico, (iv) materiais e m\'e9todos, (
+v) resultados, (vi) discuss\'e3o e (vii) conclus\'e3o. 
+\par 
+\par }\pard\plain \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {A }{\ul apresenta\'e7\'e3o}{ \'e9
+ onde o problema deve ser claramente apresentado e onde o artigo tem  sua validade defendida. Todo artigo deve iniciar-se com a exposi\'e7\'e3o clara de seus objetivos utilizando uma f\'f3rmula como \'93 }{\i o objetivo deste artigo \'e9
+ ...(ou qualquer formula\'e7\'e3o similar)}{\'94. Para a leitura e para a consulta em base de dados esta forma auxilia o leitor em sua busca de refer\'eancias. A discuss\'e3o de relev\'e2ncia deve aparecer em seguida com uma formula do tipo: \'93 }{\i 
+o interesse desta pesquisa est\'e1 em que...\'94. }{Para a analise do artigo pelo revisor esta formula\'e7\'e3o l\'edmpida possibilita a leitura do restante do artigo...
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Na }{\ul contextualiza\'e7\'e3o}{ deve ser apresentado a demanda e o contexto do estudo. Um estudo em ergonomia n\'e3o surge do nada, tampouco os }{\i insights }{s\'e3
+o bem aceitos. Por se tratar de Ergonomia, o objetivo deve estar situado com rela\'e7\'e3o ao contexto em que o estudo que subsidia o artigo. Assim \'e9 necess\'e1rio caracterizar o local do estudo mas tamb\'e9m a g\'eanese do trabalho (tipo e esp\'e9
+cie de demanda, configura\'e7\'e3o de problemas etc.) e, com rela\'e7\'e3o a isto, porque o realizado, no contexto do estudo \'e9 necess\'e1rio ou suficiente para os prop\'f3sitos da a\'e7\'e3o ergon\'f4mica em tela. Caso o trabalho tenha tido motiva\'e7
+\'e3o acad\'eamica (pesquisa), isto deve ser assinalado  antes dos objetivos e a linha de pesquisa onde se insere o trabalho deve ser resumida em um par\'e1grafo de tr\'eas a cinco per\'edodos. Isto permitir\'e1 que os leitores conhe\'e7
+am um pouco da linha de pesquisa na qual seu trabalho teve origem. As ilustra\'e7\'f5es aqui devem ter um car\'e1ter bastante objetivo e que permitam ao leitor transportar-se para o contexto da investiga\'e7\'e3o. Busque uma certa economia: ilustra\'e7
+\'f5es em demasia se tornam um problema.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {O }{\ul quadro te\'f3rico}{ possibilita ao autor relacionar os conceitos empregados em sua investiga\'e7\'e3o com as teorias em que se fundamentou. Na realiza\'e7\'e3
+o de um artigo os autores devem buscar listar cuidadosamente os conceitos empregados e remet\'ea-los para as teorias de onde adv\'eam, aportando com isso precis\'e3o ao texto. A discuss\'e3o te\'f3rica \'e9
+ o que sustenta a metodologia de seu trabalho, Neste sentido \'e9 um dos atributos que contribuir para a decis\'e3o de aceita\'e7\'e3o de seu artigo. Assim sendo ela deve estar bem organizada em um t\'f3pico espec\'edfico do artigo.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par  \tab Na se\'e7\'e3o de }{\ul materiais e m\'e9todos}{ o autor descreve os m\'e9todos empregados para conduzir a investiga\'e7\'e3o que deu origem ao artigo. Em ergonomia esses m\'e9todos pululam entre os m\'e9todos de aplica\'e7\'e3o situada, os m\'e9
+todos experimentais, os protocolos de simula\'e7\'e3o e de elicia\'e7\'e3o e as formas de tratamento de dados. A apresenta\'e7\'e3o metodol\'f3
+gica deve descrever a forma de coleta de dados, enfatizado o tipo de instrumento empregado e o porque desta escolha face aos objetivos e em rela\'e7\'e3o ao quadro te\'f3rico apresentado.
+\par 
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Ao chegar aos}{\ul  resultados}{ o autor deve apresent\'e1-los e os valorizar mediante gr\'e1ficos, esquemas e outras formas pict\'f3ricas, preferindo-as com rela\'e7\'e3
+o a tabelas num\'e9ricas e quadros verbais. Por se tratar de estudos acerca da atividade de trabalho, a redu\'e7\'e3o do teor do artigo \'e0s sua modelagem verbal \'e9 um v\'edcio que deve ser evitado. Por outro lado a esquematiza\'e7\'e3o d\'e1 maior 
+\'eanfase \'e0 elabora\'e7\'e3o de categorias de an\'e1lise, a grande contribui\'e7\'e3o de um artigo de Ergonomia em termos metodol\'f3gicos ( e por isso mesmo de grande valor intr\'ednseco para a disciplina). Obviamente n\'e3o adotamos a formula simpl
+\'f3ria de que uma imagem fala mais do que mil palavras, mas sustentaremos que uma boa ilustra\'e7\'e3o faz as palavras que a acompanham ganhar valor de clareza, agradabilidade e efici\'eancia comunicacional. As ilustra\'e7\'f5es, aqui, devem ter o car
+\'e1ter revelador ou caracterizador, portanto a prefer\'eancia sobre esquemas e gr\'e1ficos da\'ed decorre. As fotografias, se aqui couberem, devem ser trabalhadas, assinaladas ou dispostas em seq\'fc\'eancias que permitam alguma c
+onclusividade. Alguns autores justap\'f5em resultados e recomenda\'e7\'f5es, o que em a\'e7\'f5es ergon\'f4micas concretas, tem algo de sinon\'edmia.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Na }{\ul discuss\'e3o}{ esses resultados s\'e3o interpretados e as implica\'e7\'f5es destes resultados s\'e3o avaliadas. \'c8 na discuss\'e3o onde o autor faz o ensaio das refuta
+\'e7\'f5es e aponta os caminhos poss\'edveis de uma falsifica\'e7\'e3o, no sentido poperiano. Um bom meio de obter-se um excelente material para esta parte do artigo \'e9 o semin\'e1rio ou a discuss\'e3o do artigo por colegas pr\'f3ximos e dispon\'ed
+veis. No tocante \'e0s recomenda\'e7\'f5es a valida\'e7\'e3o e restitui\'e7\'e3o dos resultados constituem a mat\'e9ria central da discuss\'e3o. Alguns autores colocam a valida\'e7\'e3o como parte da metodologia e neste caso sua discuss\'e3o n\'e3
+o tem maior sentido, a n\'e3o ser que as discrep\'e2ncias entre o investigado e o validado sejam consider\'e1veis e a discuss\'e3o trate especificamente disso.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A }{\ul conclus\'e3o}{ \'e9 o objetivo do artigo. A conclus\'e3o deve estabelecer em que os resultados contribu\'edram para o atendimento da demanda, raz\'e3
+o de ser de um trabalho de ergonomia. Igualmente \'e9 comum se enfatizar a utilidade dos resultados da an\'e1lise com rela\'e7\'e3o \'e0s recomenda\'e7\'f5es feitas. Nunca acrescente autores ou coment\'e1rios adicionais na conclus\'e3
+o. Contrariamente ao texto de uma tese, um artigo deve fechar o problema que se prop\'f4s. N\'e3o cabe num artigo a indica\'e7\'e3o de desdobramentos ou de outros trabalhos.
+\par 
+\par {\listtext\pard\plain\s2 \b\i \hich\af0\dbch\af0\loch\f0 3.5\tab}}\pard\plain \s2\qj \fi-576\li576\ri0\keepn\nowidctlpar\jclisttab\tx576\faauto\ls18\ilvl1\outlinelevel1\adjustright\rin0\lin576\itap0 
+\b\i\fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {Artigos de revis\'e3o
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par \tab Muitos estudantes se sentem atra\'eddos por este tipo de artigo, talvez por desconhecerem a dificuldade deste tipo de produ\'e7\'e3o acad\'eamica. No entanto quando se trata de tema de originalidade indiscut\'edvel \endash  o que n\'e3o \'e9 t\'e3o f
+\'e1cil assim \endash  os artigos de revis\'e3o podem se constituir em etapa }{\i sine qua non}{ para o avan\'e7o da investiga\'e7\'e3o. Pois \'e9 organizando, integrando e previamente avaliando material j\'e1 publicado que o a
+utor se possibilita clarificar um problema e com isso posicionar sua pr\'f3pria investiga\'e7\'e3o acerca do problema. A busca de m\'e9todos de avalia\'e7\'e3o da carga mental em situa\'e7\'f5es de pilotagem (}{\i cockpits}{
+) permitiu a uma equipe do GENTE/COPPE a elabora\'e7\'e3o de um manuscrito desta esp\'e9cie de artigos.
+\par 
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Este tipo de artigo comporta, portanto,  meta-an\'e1lises, avalia\'e7\'e3o critica de outros artigos publicados e a reuni\'e3o de artigos esparsos em uma conex\'e3o l\'f3
+gica de interesse ampliado (para evitar o efeito colcha-de-retalhos que veremos mais adiante). Podemos caracteriz\'e1-los como um texto de natureza tutorial}{\cs18\super \chftn {\footnote \pard\plain 
+\s17\ql \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {\cs18\super \chftn }{ aula ou sess\'e3o dirigida por um professor ou assistente para um aluno ou um grupo pequeno}}}{ onde o autor:
+
+\par 
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 -\tab}}\pard \qj \fi-357\li1066\ri675\sa120\nowidctlpar\jclisttab\tx1068\faauto\ls14\adjustright\rin675\lin1066\itap0 {define e esclarece a natureza do problema;
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 -\tab}resume as investiga\'e7\'f5es que conseguiu amealhar para informar o estado da arte acerca do problema e mapear problemas em aberto;
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 -\tab}identifica vazios, contradi\'e7\'f5es e inconsist\'eancias na literatura;
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 -\tab}sugere alguns encaminhamentos pertinentes para solucionar o problema em aberto.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \li708\ri0\nowidctlpar\faauto\adjustright\rin0\lin708\itap0 {Um exemplo de artigo de revis\'e3o \'e9 o que se segue:
+\par 
+\par }\pard \qj \li708\ri585\nowidctlpar\faauto\adjustright\rin585\lin708\itap0 \cbpat17 {\b\fs26 Estilo cognitivo de an\'e1lise como um fator de memoriza\'e7\'e3o de textos
+\par }{\fs20 
+\par 
+\par }\pard\plain \s20\qj \li708\ri585\nowidctlpar\faauto\adjustright\rin585\lin708\itap0 \cbpat17 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {\fs20 As diferen\'e7as de estilos cognitivos t\'ea
+m sido tradicionalmente ignoradas nos estudos de memoriza\'e7\'e3o e aprendizado como nos assinala Eysenck (1977). Uma tal constata\'e7\'e3o \'e9 surpreendente sobretudo se observarmos a crescente literatura qu
+e busca evidenciar as formas diferenciadas atrav\'e9s das quais os indiv\'edduos codificam e resgatam informa\'e7\'f5es simples ou complexas (Eysenck, 1977 e Goodenough, 1976, apresentam uma boa revis\'e3o a esse respeito).  Este artigo de revis\'e3
+o tem portando duas finalidades....
+\par }\pard\plain \qj \li708\ri0\nowidctlpar\faauto\adjustright\rin0\lin708\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par 
+\par }\pard\plain \s19\qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {Vemos neste fragmento de artigo que os autores observam as regras de apresenta\'e7\'e3o e de valoriza\'e7\'e3
+o logo no primeiro par\'e1grafo, como deve ser. Uma ultima recomenda\'e7\'e3o \'e9 de que os artigos de revis\'e3o agrupam as cita\'e7\'f5es por temas e n\'e3o necessariamente por ordem cronol\'f3gica.
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par {\listtext\pard\plain\s2 \b\i \hich\af0\dbch\af0\loch\f0 3.6\tab}}\pard\plain \s2\qj \fi-576\li576\ri0\keepn\nowidctlpar\jclisttab\tx576\faauto\ls18\ilvl1\outlinelevel1\adjustright\rin0\lin576\itap0 
+\b\i\fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {Artigos te\'f3ricos
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par \tab Os artigos te\'f3ricos s\'e3o aqueles nos quais os autores se baseiam na literatura de pesquisa para propor avan\'e7os na teoria. Na medida em que a teoria da Ergonomia est\'e1 para ser escrita, devemos considerar que os artigos te\'f3
+ricos em nosso campo tenham as caracter\'edsticas de elabora\'e7\'e3o conceitual \endash  termos ou categorias \endash  ou de discuss\'e3o epistemol\'f3gico, cabendo ainda uma terceira possibilidade que discuta a pertin\'eancia de transdiscipliniriza\'e7
+\'e3o de quadros de disciplinas de dom\'ednio conexo como ling\'fc\'edstica, neuroci\'eancias, psicologia do desenvolvimento, psican\'e1lise, sociologia, fisiologia ou teoria de organiza\'e7\'e3o, para citar algumas possibilidades que j\'e1
+ pudemos nos confrontar.
+\par 
+\par \tab Os bons artigos te\'f3ricos n\'e3o necessariamente se constituem em propostas de teorias ou de modelos te\'f3ricos, mas essencialmente aqueles em que as constru\'e7\'f5es te\'f3ricas s\'e3o refinadas, expandidas ou questionadas em sua consist\'ea
+ncia. Para o sentido mesmo da revista A\'e7\'e3o Ergon\'f4mica a contribui\'e7\'e3o te\'f3rica ser\'e1 mais bem assimilada no caso em que as discuss\'f5es sejam enriquecidas por referentes concretos: pesquisas apresentadas ou exemplifica\'e7\'f5
+es claras e sobre fatos correntes relacionados a atividades de trabalho cuja constata\'e7\'e3o seja de relativa facilidade. Teorias sem exemplos n\'e3o podem requerer este status. Embora os estudos de caso sejam pouco freq\'fc
+entes em Ergonomia, esta forma de produ\'e7\'e3o seria razoavelmente aceit\'e1vel como parte de um artigo te\'f3rico, desde que pelo menos dois casos fossem confrontados. Assim o fizeram Teiger et al. (1980) no famoso artigo intitulado \'93}{\i Prescri
+\'e7\'e3o e realidade no trabalho oper\'e1rio}{\'94.    
+\par 
+\par {\listtext\pard\plain\s1 \b\fs32\kerning32 \hich\af0\dbch\af0\loch\f0 4  \tab}}\pard\plain \s1\qj \fi-431\li431\ri0\sb120\sa60\keepn\nowidctlpar\jclisttab\tx432\faauto\ls18\outlinelevel0\adjustright\rin0\lin431\itap0 
+\b\fs26\lang1046\langfe1046\kerning32\cgrid\langnp1046\langfenp1046 {A qualidade de um artigo
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A qualidade de um artigo requer elementos que sustentem a qualidade de seu conte\'fado, a boa express\'e3o das id\'e9ias que veicula, e a observa\'e7\'e3o dos aspectos \'e9
+ticos envolvidos.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par {\listtext\pard\plain\s2 \b\i \hich\af0\dbch\af0\loch\f0 4.1\tab}}\pard\plain \s2\qj \fi-576\li576\ri0\keepn\nowidctlpar\jclisttab\tx576\faauto\ls19\ilvl1\outlinelevel1\adjustright\rin0\lin576\itap0 
+\b\i\fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {Qualidade do conte\'fado
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {\fs16 
+\par }\pard\plain \s19\qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {O principal definidor da qualidade de um artigo n\'e3
+o reside na sua forma ou na capacidade redacional dos autores, mas sim na boa estrutura\'e7\'e3o da pesquisa. A maior parte das causas de rejei\'e7\'e3o dos artigos na maior parte dos peri\'f3dicos se deve a este fato, e muito menos a raz\'f5
+es puramente ling\'fc\'edsticas, at\'e9 porque este \'e9 um aspecto facilmente sanado por um revisor, profissional especializado nisto. N\'e3o existem, por\'e9m recursos ling\'fc\'ed
+sticos capazes de mascarar uma pesquisa sem foco, com resultados incipientes ou sem a necess\'e1ria articula\'e7\'e3o m\'ednima. 
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par \tab Os seguintes aspectos podem ser importantes para evitar as principais caracter\'edsticas de um artigo considerado insuficiente. Estas caracter\'edsticas se traduzem por tr\'eas tipos de falta: de esquematiza\'e7\'e3o do artigo, de avalia\'e7\'e3
+o do conte\'fado e de objetividade. Avaliemos estas tr\'eas caracter\'edsticas, de cujo exame decorre uma guia de verifica\'e7\'e3o da qualidade da apresenta\'e7\'e3o.
+\par 
+\par {\listtext\pard\plain\s3 \b\lang1024\langfe1024\noproof \hich\af0\dbch\af0\loch\f0 4.1.1\tab}}\pard\plain \s3\qj \fi-720\li720\ri0\keepn\nowidctlpar\jclisttab\tx720\faauto\ls18\ilvl2\outlinelevel2\adjustright\rin0\lin720\itap0 
+\i\fs24\lang1024\langfe1024\cgrid\noproof\langnp1046\langfenp1046 {\b\i0 Falta de esquematiza\'e7\'e3o do artigo
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par \tab A falta de esquematiza\'e7\'e3o do artigo \'e9 captada pelo revisor quando apresenta algum das seguintes feitos textuais :
+\par {\listtext\pard\plain\f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj \fi-360\li1170\ri0\sb240\nowidctlpar\faauto\ls8\adjustright\rin0\lin1170\itap0 {\i Colcha-de-retalhos}{ \endash  o artigo apresenta uma s\'e9
+rie de aspectos pouco concatenados entre si. Nestes casos a estrutura do artigo aparece dividida em partes estanques e sem a devida conex\'e3o. Para evitar este problema busque empregar a sistem\'e1tica de autoriza\'e7\'f5
+es sucessivas: cada frase final de um par\'e1grafo deve sugerir a leitura do(s) pr\'f3ximo(s).
+\par }\pard \qj \li810\ri0\sb240\nowidctlpar\faauto\adjustright\rin0\lin810\itap0 {\fs20 
+\par {\listtext\pard\plain\f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj \fi-360\li1170\ri0\nowidctlpar\faauto\ls8\adjustright\rin0\lin1170\itap0 {\i Simplifica\'e7\'f5es abusivas}{ \endash  que o
+correm quando o autor sustenta um ponto de vista apenas por uma correla\'e7\'e3o simples entre causa e efeito, quando elimina sem justificativas a influ\'eancia de interveni\'eancias ou quando sustenta resultados negativos sem uma an\'e1
+lise mais aprofundada. Uma regra n\'e3o escrita para evitar causalidades simplificadas \'e9 que uma explica\'e7\'e3o deva apresentar ao menos tr\'eas aspectos, como fizemos para caracterizar as caracter\'edsticas de um artigo deficiente. J\'e1 a elimina
+\'e7\'e3o de interveni\'eancias deve revestir-se de um imenso cuidado. De uma feita (VIDAL et al, 1978) ao estudar a influencia dos ru\'eddos sobre atividades de precis\'e3o, eliminei os resultados at\'edpicos de dois sujeitos por apresentam uma discrep
+\'e2ncia muito forte com os demais. Seus resultados apontavam um aumento de performance com o incremento da contrante, o que destoava do quadro geral do experimento, onde uma rela\'e7\'e3o oposta se delineava. A explica\'e7\'e3
+o deste comportamento paradoxal somente apareceu alguns anos depois, com a teoria da acelera\'e7\'e3o dos movimentos como defesa ps\'edquica. Proposta por Dejours (1980), esta mesma teoria explicaria tamb\'e9
+m o reporte dos antigos digitadores dos centros de entrada de dados com rela\'e7\'e3o a pensamentos angustiantes, sendo que estes se situavam em faixas de alt\'edssimas performances \endash  superiores a 10.000 toques/hora (SOARES et. al, 1984). 
+\par }\pard \qj \li810\ri0\nowidctlpar\faauto\adjustright\rin0\lin810\itap0 {
+\par {\listtext\pard\plain\f3 \loch\af3\dbch\af0\hich\f3 \'b7\tab}}\pard \qj \fi-360\li1170\ri0\nowidctlpar\jclisttab\tx360\faauto\ls8\adjustright\rin0\lin1170\itap0 {\i Exaustividade aparente }{\endash 
+ quando o autor se confunde entre explorar os limites de generaliza\'e7\'e3o de algum achado e comunicar mudan\'e7as apenas triviais ou irrelevantes do existente. Os bons artigos se baseiam na valoriza\'e7\'e3o de seus pr\'f3
+prios achados ou se constituem em artigos de revis\'e3o que apontam resultados incitadores a uma continuidade de investiga\'e7\'e3o acerca do(s) aspecto(s) anotados como faltas, inconsist\'eancias ou contradi\'e7\'f5es. Artigos cuja conclus\'e3o n\'e3o re
+meta a este estado n\'e3o se constituem em revis\'e3o public\'e1vel. Ela certamente ter\'e1 um grande valor de estudo para o autor, mas sem maiores inter\'easses para a editoria cient\'edfica.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par {\listtext\pard\plain\s3 \b\lang1024\langfe1024\noproof \hich\af0\dbch\af0\loch\f0 4.1.2\tab}}\pard\plain \s3\qj \fi-720\li720\ri0\keepn\nowidctlpar\jclisttab\tx720\faauto\ls18\ilvl2\outlinelevel2\adjustright\rin0\lin720\itap0 
+\i\fs24\lang1024\langfe1024\cgrid\noproof\langnp1046\langfenp1046 {\b\i0 Falta de avalia\'e7\'e3o do conte\'fado
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {\b 
+\par }\pard\plain \s16\qj \fi540\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {Todo autor deve se colocar como editor do pr\'f3prio artigo, n\'e3o apenas como autor. Este exerc\'edcio, al\'e9
+m de auxiliar a prepara\'e7\'e3o, aumenta o conhecimento do pr\'f3prio autor que passa a examinar seu pr\'f3prio objeto de estudo de diversos \'e2ngulos. Se conseguir distanciar-se de seu artigo o suficiente para se perguntar se voc\'ea editaria seu pr
+\'f3prio artigo, o autor ter\'e1 feito um grande passo de crescimento como pesquisador. O orientador deve ajudar neste tipo de an\'e1lise, uma vez que entre alunos de p\'f3s-gradua\'e7\'e3o, \'e9 recorrente o estado psicol\'f3gico da invalida\'e7\'e3
+o, onde a pessoa se julga inferior ao seu real valor (o efeito sim\'e9trico, a soberba, significa exatamente a mesma coisa: que o artigo precisa ser melhorado antes da submiss\'e3o).
+\par }\pard\plain \qj \fi540\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par }\pard\plain \s22\qj \fi540\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {Uma outra maneira, mais eficiente at\'e9, de avaliar o conte\'fado de seu original \'e9 se colocar em seu pr\'f3
+prio papel de pesquisador, fazendo a pergunta crucial: Eu leria este artigo para minha tese? Para o trabalho que estou fazendo agora?
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {\b 
+\par }\pard\plain \s21\qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {Barthol K.M (1981), em um interessante artigo,  prop\'f4s a seguinte lista de verifica\'e7\'e3o para avalia\'e7\'e3
+o do m\'e9rito da publica\'e7\'e3o:
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 (i)\tab}}\pard \qj \fi-720\li1080\ri0\nowidctlpar\jclisttab\tx1080\faauto\ls15\adjustright\rin0\lin1080\itap0 {A quest\'e3o de pesquisa \'e9 significante ?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 (ii)\tab}A investiga\'e7\'e3o dela decorrente \'e9 original e bem trabalhada?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 (iii)\tab}Os instrumentos adotados demonstram confiabilidade e validade?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 (iv)\tab}As conseq\'fc\'eancias apontadas pelo estudo se reportam \'e0s categorias conceituais e aos observ\'e1veis estabelecidos?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 (v)\tab}As hip\'f3teses est\'e3o satisfatoriamente corroboradas ou refutadas?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 (vi)\tab}As generaliza\'e7\'f5es est\'e3o aceit\'e1veis ?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 (vii)\tab}A investiga\'e7\'e3o se deu dentro de padr\'f5es \'e9ticos?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 (viii)\tab}A pesquisa demonstra estar num grau de avan\'e7o tal que seus resultados sejam compreens\'edveis? 
+\par }\pard \qj \li360\ri0\nowidctlpar\faauto\adjustright\rin0\lin360\itap0 {
+\par {\listtext\pard\plain\s3 \b\lang1024\langfe1024\noproof \hich\af0\dbch\af0\loch\f0 4.1.3\tab}}\pard\plain \s3\qj \fi-720\li720\ri0\keepn\nowidctlpar\jclisttab\tx720\faauto\ls18\ilvl2\outlinelevel2\adjustright\rin0\lin720\itap0 
+\i\fs24\lang1024\langfe1024\cgrid\noproof\langnp1046\langfenp1046 {\b\i0 Objetividade
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par }\pard \qj \fi720\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A objetividade estabelece a liga\'e7\'e3o entre a apresenta\'e7\'e3o, a contextualiza\'e7\'e3o e a conclus\'e3o do artigo. A conclus\'e3o deve ser escrita logo em seguida \'e0
+ apresenta\'e7\'e3o e \'e1 contextualiza\'e7\'e3o, at\'e9 porque isso facilita sobremaneira a reda\'e7\'e3o do artigo. Assim fazendo \'e9 poss\'edvel certificar-se de que as conclus\'f5
+es atestam inequivocamente o atendimento dos objetivos do artigo, um dos grandes fatores de rejei\'e7\'e3o dos artigos pelos revisores. Da mesma forma as recomenda\'e7\'f5es que porventura existam num artigo de ergonomia n\'e3o t\'ea
+m o menor valor se o contexto do estudo (}{\b\i locus}{ e demanda) n\'e3o estiver bem configurado e que exista um nexo muito significativo entre ambos.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par {\listtext\pard\plain\s3 \b\lang1024\langfe1024\noproof \hich\af0\dbch\af0\loch\f0 4.1.4\tab}}\pard\plain \s3\qj \fi-720\li720\ri0\keepn\nowidctlpar\jclisttab\tx720\faauto\ls18\ilvl2\outlinelevel2\adjustright\rin0\lin720\itap0 
+\i\fs24\lang1024\langfe1024\cgrid\noproof\langnp1046\langfenp1046 {\b\i0 Qualidade da submiss\'e3o
+\par }\pard\plain \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par Do acima exposto conclui-se que a prepara\'e7\'e3o do manuscrito \'e9 t\'e3o importante quanto a realiza\'e7\'e3o da pesquisa em si mesma e, assim sendo, deve-se cuidar dessa produ\'e7\'e3o com o mesmo esmero com que se faz a investiga\'e7\'e3
+o. Corolariamente isto significa que uma investiga\'e7\'e3o feita sem maiores cuidados trar\'e1 grades dificuldades para a prepara\'e7\'e3o de artigos dela derivados. O que, em s\'edntese refor\'e7a a necessidade da prepara\'e7\'e3
+o de artigos como controle de qualidade da pr\'f3pria investiga\'e7\'e3o. Ressaltando que aqui n\'e3o tecemos julgamento de valor acerca do ve\'edculo escolhido, dado que uma tal discuss\'e3o nos encaminharia para uma digress\'e3o com rela\'e7\'e3
+o ao aspecto positivo e formador da publica\'e7\'e3o, sublinhamos o valor pedag\'f3gico desta empreitada.
+\par 
+\par }\pard\plain \s16\qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {Bartol. (op.cit) prop\'f4s ainda uma longa lista para verificar a qualidade do manuscrito, qual seja:
+\par }\pard\plain \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 a)\tab}}\pard \qj \fi-360\li1440\ri765\nowidctlpar\jclisttab\tx1440\faauto\ls15\ilvl1\adjustright\rin765\lin1440\itap0 \cbpat17 {O t\'f3pico de que trata o artigo \'e9 apropriado para o peri\'f3
+dico ao qual se pretende submet\'ea-lo?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 b)\tab}A apresenta\'e7\'e3o est\'e1 clara e completa?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 c)\tab}A contextualiza\'e7\'e3o orienta o leitor de forma l\'f3gica e adequada?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 d)\tab}As cita\'e7\'f5es est\'e3o satisfat\'f3rias?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 e)\tab}A quest\'e3o de investiga\'e7\'e3o est\'e1 bem enunciada, o mesmo se dando com as hip\'f3teses? 
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 f)\tab}O quadro te\'f3rico esta perfeitamente claro?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 g)\tab}A metodologia est\'e1 bem caracterizada possibilitando sua replica\'e7\'e3o?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 h)\tab}As t\'e9cnicas de tratamento dos dados (estat\'edsticas, confronta\'e7\'f5es, agrupamentos)  est\'e3o bem descritas?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 i)\tab}A discuss\'e3o esta suficientemente abrangente? 
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 j)\tab}O t\'f3pico trabalhado \'e9 enriquecido com os resultados do estudo?
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 k)\tab}O artigo esta suficientemente conciso?
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }{\b\i 
+\par {\listtext\pard\plain\s2 \b\i \hich\af0\dbch\af0\loch\f0 4.2\tab}}\pard\plain \s2\qj \fi-576\li576\ri0\keepn\nowidctlpar\jclisttab\tx576\faauto\ls18\ilvl1\outlinelevel1\adjustright\rin0\lin576\itap0 
+\b\i\fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {Boa express\'e3o das id\'e9ias
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par }\pard \qj \fi576\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A boa express\'e3o das id\'e9ias \'e9 naturalmente um atributo que varia de pessoa para pessoa, e n\'e3
+o se trata de discutir este aspecto neste trabalho. No entanto, a escrita cientifica tem alguns ditames que podem ser listados, contribuindo para uniformizar a escrita de modo a torn\'e1-la mais acess\'edvel para todos os 
+autores, independentemente de seus talentos. Afinal estamos falando de literatura cient\'edfica, uma parte \'ednfima no contexto da grande arte da escrita.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Tr\'eas aspectos s\'e3o relevantes ao se falar em boa express\'e3o das id\'e9ias: O estilo redacional, a gram\'e1tica e 
+os vieses de linguagem. Dado o risco deste material se transformar em um tratado ling\'fc\'edstico, algo bastante al\'e9m de nossas capacidades, possibilidades e inten\'e7\'e3
+o, assinalaremos alguns pontos chaves neste processo, especialmente no que tange ao estilo, sempre assinalando que o recurso a um revisor \'e9 algo fortemente recomend\'e1vel e que de forma alguma deve ser encarado pelo autor como uma insufici\'ea
+ncia sua, mas antes como o reconhecimento de uma compet\'eancia especifica e necess\'e1ria. 
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Quanto ao estilo, falaremos de  temas: a apresenta\'e7\'e3o ordenada de id\'e9ias, a suavidade da express\'e3o, a economia comunicacional e a clareza. Algumas pequenas orienta\'e7
+\'f5es para melhoria de estilo  completam este item.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par {\listtext\pard\plain\s3 \b\lang1024\langfe1024\noproof \hich\af0\dbch\af0\loch\f0 4.2.1\tab}}\pard\plain \s3\qj \fi-720\li720\ri0\keepn\nowidctlpar\jclisttab\tx720\faauto\ls18\ilvl2\outlinelevel2\adjustright\rin0\lin720\itap0 
+\i\fs24\lang1024\langfe1024\cgrid\noproof\langnp1046\langfenp1046 {\b\i0 Apresenta\'e7\'e3o ordenada das id\'e9ias
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Um texto se organiza por unidades de pensamento. Estas unidades devem estas ligadas umas \'e0s outras desde a primeira at\'e9 a ultima frase. Esta busca de continuidade, de liga\'e7
+\'e3o, de concatena\'e7\'e3o \'e9 fundamental para a boa express\'e3o de id\'e9ias.  O que mais pode atrapalhar a boa continuidade s\'e3o as pontua\'e7\'f5es e o emprego indevido de adv\'e9rbios.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A boa pontua\'e7\'e3o refere-se ao emprego adequado de v\'edrgulas e pontos comuns e pontos par\'e1
+grafos. As virgulas, por assim dizer, separam unidades de pensamento dentro de uma frase. Os pontos simples servem para mudar de frase dentro de um mesmo assunto. Os pontos par\'e1grafos servem para mudar de assunto dentro de um mesmo tema. A mudan\'e7
+a de tema requer mudan\'e7a de numera\'e7\'e3o de t\'f3pico. \'c9 muito comum recebermos textos no estilo \'93uma frase um par\'e1grafo\'94. Isso leva o artigo necessariamente \'e0 solicita\'e7\'e3o de revis\'e3o ling\'fc\'edstica, pois \'e9 inadmiss\'ed
+vel seja qual for o idioma! Um par\'e1grafo deve consistir numa unidade de exposi\'e7\'e3o e de argumenta\'e7\'e3o completa. Os per\'edodos iniciais  s\'e3o decorrentes do elo de liga\'e7\'e3o com o par\'e1grafo anterior ou do par\'e1
+grafo gerador do item,  sempre introduzindo ao teor do par\'e1grafo. Os per\'edodos intermedi\'e1rios exp\'f5em ou argumentam o tema assim estabelecido, conquanto os  per\'edodos finais fecham o tema, podendo sugerir uma passagem ao par\'e1grafo subseq
+\'fcente, ou n\'e3o (neste caso o pr\'f3ximo par\'e1grafo deve iniciar-se com uma adverbia\'e7\'e3o de contraste que introduza o tema do pr\'f3ximo par\'e1grafo). Como indica\'e7\'e3o pratica observe que um par\'e1grafo nunca ultrapasse dois ter\'e7
+os de uma pagina de original. Uma boa p\'e1gina deve conter entre tr\'eas e quatro par\'e1grafos. 
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Os adv\'e9rbios de liga\'e7\'e3o podem ajudar muito para estabelecer uma boa continuidade. Adv\'e9rbios temporais (ent\'e3o, conquanto,  depois de) podem ser bastante \'fateis. Por
+\'e9m adv\'e9rbios ou express\'f5es adverbiais que estabelecem l\'f3gicas superlativas ( dado que. se ... ent\'e3o) devem ser empregados com muita aten\'e7\'e3o. 
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par {\listtext\pard\plain\s3 \b\lang1024\langfe1024\noproof \hich\af0\dbch\af0\loch\f0 4.2.2\tab}}\pard\plain \s3\qj \fi-720\li720\ri0\keepn\nowidctlpar\jclisttab\tx720\faauto\ls18\ilvl2\outlinelevel2\adjustright\rin0\lin720\itap0 
+\i\fs24\lang1024\langfe1024\cgrid\noproof\langnp1046\langfenp1046 {\b\i0 Suavidade
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par  \tab A leitura de um texto cientifico n\'e3o precisa ser arida e cansativa. Claro que existe uma grande dist\'e2ncia entre o texto do escritor de fic\'e7\'e3o ou de poesia e o texto cient\'edfico. Mas certamente a maior diferencia\'e7\'e3
+o esta no uso de figuras de linguagem algo que \'e9 fortemente desaconselh\'e1vel em um texto cientifico, A ambig\'fcidade e a aura de mist\'e9rio de tantos autores consagrados deve aqui ser evitada. Isto por\'e9m n\'e3
+o significa em fazer da escrita cientifica uma repugn\'e2ncia normalizada. 
+\par 
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Em geral por ser preparado ap\'f3s a pesquisa, muitos autores se v\'eaem sob press\'f5es de tempo as mais diversas, fazendo com que a escrita se acelere. Bem o envolvimento do auto
+r com seu texto \'e9 tal que ocorre um curioso fen\'f4meno cognitivo: o autor passa a se relacionar mais com o texto em sua mente do que com o texto na tela ou no papel. O grande problema \'e9 que o texto em si pode n\'e3
+o corresponder ao texto mental e com isso v\'e1rios erros de comissionamento aparecerem. A leitura do artigo pelos colegas tem a finalidade prim\'e1ria de resolver este problema em parte.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {No entanto a suavidade do texto para ser obtida requer uma boa revis\'e3o, mas nem sempre o revisor pode fazer milagres. Uma t\'e9cnica que vem dando resultado conosco \'e9
+ a leitura em voz alta para um colega do texto, buscando observar as rea\'e7\'f5es do ouvinte. O pr\'f3prio orador se apercebe de uns tantos problemas nesta opera\'e7\'e3o.  Especialmente o uso de termos fortes ou repetidos fica
+ muito claro neste procedimento, al\'e9m da clara localiza\'e7\'e3o de passagens textuais incompreens\'edveis.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par   
+\par {\listtext\pard\plain\s3 \b\lang1024\langfe1024\noproof \hich\af0\dbch\af0\loch\f0 4.2.3\tab}}\pard\plain \s3\qj \fi-720\li720\ri0\keepn\nowidctlpar\jclisttab\tx720\faauto\ls18\ilvl2\outlinelevel2\adjustright\rin0\lin720\itap0 
+\i\fs24\lang1024\langfe1024\cgrid\noproof\langnp1046\langfenp1046 {\b\i0 Economia 
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Aqui valem ser mencionados os princ\'edpios de Grice: Nunca diga nada que n\'e3o possa ser sustentado e nunca diga nada al\'e9m do necess\'e1rio. A verborragia \'e9
+ quase sempre uma caracter\'edstica ruim para o texto cientifico  tanto no quer atinge ao (voc\'ea leria um texto muito longo?) como para o editor , que sempre trabalha com um n\'famero estabelecidos de p\'e1
+ginas, implicando em solicitar aos autores que encurtem seus originais. 
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Para um texto cient\'edfico seis elementos verborr\'e1gicos s\'e3o especialmente contraproducentes: redund\'e2ncias  e circunl\'f3
+quios, , do uso abusivo de voz passiva e de prosa desajeitada 
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par {\listtext\pard\plain\s4 \i \hich\af0\dbch\af0\loch\f0 4.2.3.1\tab}}\pard\plain \s4\qj \fi-864\li864\ri0\keepn\nowidctlpar\jclisttab\tx864\faauto\ls18\ilvl3\outlinelevel3\adjustright\rin0\lin864\itap0 
+\i\fs24\lang1033\langfe1046\cgrid\langnp1033\langfenp1046 {\lang1046\langfe1046\langnp1046 Redund\'e2ncias e circunl\'f3quios
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {As }{\b\i redund\'e2ncias e circunl\'f3quios}{\cs18\super \chftn {\footnote \pard\plain \s17\ql \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 
+\fs20\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {\cs18\super \chftn }{ Falar sobre a mesma coisa de diferentes maneiras.}}}{ t\'eam um valor importante na exposi\'e7\'e3
+o oral em sala de aula, em face de um grupo de alunos aprendizes. No texto cient\'edfico este efeito \'e9 paradoxalmente inverso e apenas traduz um busca de enfatizar algum aspecto, o que \'e9 desnecess\'e1rio pois o texto cie
+ntifico por estar sendo lido j\'e1 teria suscitado o desejo no leitor. As redund\'e2ncias, em geral se manifestam por meio de adjetivos ou adv\'e9rbios in\'fateis como mostram os exemplos:
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 -\tab}}\pard \qj \fi-360\li1068\ri0\nowidctlpar\jclisttab\tx1068\faauto\ls14\adjustright\rin0\lin1068\itap0 {tr\'eas }{\i diferentes}{ aspectos 
+\par {\listtext\pard\plain\hich\af0\dbch\af0\loch\f0 -\tab}esta caracter\'edstica foi }{\i anteriormente}{ estabelecida .
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A exist\'eancia de circunl\'f3quios em geral denota a insufici\'eancia emp\'edrica que \'e9 comum na fase de in\'edcio da pesquisa, onde a teoriza\'e7\'e3o se sobrep\'f5
+e ao exemplo.  Em muitos textos em constru\'e7\'e3o talvez precocemente submetidos, os autores ao buscar exemplificar acabam por produzir circunl\'f3quios que podem ser eliminados, sem perda de subst\'e2ncia.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par {\listtext\pard\plain\s4 \i \hich\af0\dbch\af0\loch\f0 4.2.3.2\tab}}\pard\plain \s4\qj \fi-864\li864\ri0\keepn\nowidctlpar\jclisttab\tx864\faauto\ls18\ilvl3\outlinelevel3\adjustright\rin0\lin864\itap0 
+\i\fs24\lang1033\langfe1046\cgrid\langnp1033\langfenp1046 {\lang1046\langfe1046\langnp1046 Prosa desajeitada
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A prosa desajeitada pode ser devida a tr\'eas fatores: (a)  tamanho das express\'f5es, (b) dos per\'edodos  e (c) a profus\'e3o de frases. 
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {O  }{\b\i tamanho das express\'f5es}{ \'e9 em geral devido a  embelezamentos gratuitos, elabora\'e7\'f5es de obviedades e  observa\'e7\'f5es e apartes irrelevantes, os quais n\'e3
+o devem encontrar lugar num bom texto cient\'edfico. Em portugu\'eas somos dados a um parnasianismo ou at\'e9 mesmo a um barroquismo totalmente inadequado para o estilo cientifico. Da mesma forma a \'e1rea de trabalho e organiza\'e7\'e3
+o foi demasiadamente marcada por uma literatura sociol\'f3gica extremamente prolixa, decorrente da exist\'eancia da censura que tornou nossos autores e oradores mestres em filigranas em geral desnecess\'e1rias. O efeito sim\'e9
+trico a este problema tem ocorrido em autores mais jovens, cuja excessiva concis\'e3o tem tornados seus originais de dif\'edcil leitura.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {O }{\b\i tamanho dos per\'edodos}{ deve ser gerenciado continuamente ao longo do texto. Longos per\'edodos ganham efici\'eancia ao serem substitu\'ed
+dos por frases concisas pois se tornam mais facilmente compreens\'edveis. Cabe, entretanto, ressalvar que uma express\'e3o conceitual aparentemente longa pode aportar mais precis\'e3o do que uma seq\'fc\'eancia de palavras curtas por\'e9
+m cujo sentido combina n\'e3o atinge os objetivos que os atores pretendem. Da mesma forma, express\'f5es particulares a um grupo ou escola podem requerer  explana\'e7\'e3o, de forma a se tornarem mais \'fateis aos leitores e com isso melhor contribu\'ed
+rem para a literatura cientifica. Assim sendo, se por um lado o uso de frases e per\'edodos curtos produz textos percutantes e de alcance r\'e1pido sobre o leitor, por outro o uso exclusivo deste recurso produz um material dif\'edcil e at\'e9 incompreens
+\'edvel. Por\'e9m se necess\'e1rio for explanar uma conceitua\'e7\'e3o, que seja feito de forma t\'e3o linear quanto poss\'edvel, com os autores buscando o efeito tutorial t\'edpico dos artigos de revis\'e3o.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A }{\b\i profus\'e3o de frases }{pode ser devida aos efeitos de circunloquialidade j\'e1 explanado mais acima. Este efeito pode ser reduzido pela elimina\'e7\'e3o de descri\'e7\'f5
+es por demais pormenorizadas de aparatos, da popula\'e7\'e3o de participantes e de procedimentos de pesquisa (especialmente se estes conte\'fados metodol\'f3gicos j\'e1 foram publicados em ve\'edculos pr\'f3ximos, caso em que a simples cita\'e7\'e3o \'e9
+ suficiente).
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par {\listtext\pard\plain\s4 \i \hich\af0\dbch\af0\loch\f0 4.2.3.3\tab}}\pard\plain \s4\qj \fi-864\li864\ri0\keepn\nowidctlpar\jclisttab\tx864\faauto\ls18\ilvl3\outlinelevel3\adjustright\rin0\lin864\itap0 
+\i\fs24\lang1033\langfe1046\cgrid\langnp1033\langfenp1046 {\lang1046\langfe1046\langnp1046 Uso abusivo de voz passiva 
+\par }\pard\plain \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {Os autores s\'e3o o sujeito principal do artigo na medida em que s\'e3
+o os que contextualizam. Narram, analizam e concluem. Em muitos peri\'f3dicos j\'e1 se admite o uso da primeira pessoa pra sinalizar este lugar centrar e personific\'e1-lo. O uso de uma terceira pessoa pode trazer ambig\'fcidade, dando a impress\'e3
+o de que os autores n\'e3o teriam participado do pr\'f3prio estudo.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Contudo o equivoco redacional mais freq\'fcente consiste no uso abusivo da voz passiva, onde o objeto \'e9 privilegiado em rela\'e7\'e3
+o ao sujeito. Especialmente em Ergonomia o agente \endash  0 que \'e9 quem realiza a atividade de trabalho \endash  deve ser destacado com rela\'e7\'e3o ao objeto. Da\'ed decorre que o uso excessivo da voz passiva significa uma certa falta
+ de autoridade como ergonomistas, o que \'e9 inconceb\'edvel para pessoas que pretendem ser autores em ergonomia. Um autor deve exercer sua autoridade.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par {\listtext\pard\plain\s3 \b\lang1024\langfe1024\noproof \hich\af0\dbch\af0\loch\f0 4.2.4\tab}}\pard\plain \s3\qj \fi-720\li720\ri0\keepn\nowidctlpar\jclisttab\tx720\faauto\ls18\ilvl2\outlinelevel2\adjustright\rin0\lin720\itap0 
+\i\fs24\lang1024\langfe1024\cgrid\noproof\langnp1046\langfenp1046 {\b\i0 Precis\'e3o
+\par }\pard\plain \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par }\pard \qj \fi576\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A precis\'e3o, companheira insepar\'e1vel da clareza, \'e9 em geral afetada por cinco fatores: a escolha de termos variados, a coloquialidade, a reg\'eancia nominal e as confronta
+\'e7\'f5es impr\'f3prias.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi576\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A }{\b\i escolha de termos variados}{  \'e9 em geral decorrente da aplica\'e7\'e3o da conhecida regra redacional: evite repetir palavras e express\'f5es em locais muito pr\'f3
+ximos no texto. Na busca de sin\'f4nimos muitas vezes a precis\'e3o se perde, pois a sinon\'edmia \'e9, em geral, bem mais dif\'edcil do que parece. Outras vezes o problema \'e9
+ natureza puramente lexical, pois os termos empregados podem ter um significado bastante preciso e uma etimologia bem estabelecida. O uso de um bom dicion\'e1rio a cada vez que uma m\'ednima duvida surgir \'e9
+ uma virtude do bom autor. Finalmente o uso de sentidos de senso comum podem encerrar armadilhas para os autores. Por exemplo variedade e variabilidade}{\cs18\super \chftn {\footnote \pard\plain 
+\s17\ql \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs20\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {\cs18\super \chftn }{ Variedade tem a conota\'e7\'e3o de diversidade, multiplicidade e \'e9 em geral utilizado numa acep\'e7\'e3
+o positiva. J\'e1 a variabilidade \'e9 um atributo de um sistema de trabalho cujos efeitos sobre a atividade nem s\'e3o em geral delet\'e9rios.}}}{ tem at\'e9 radicais comuns, mas a substitui\'e7\'e3
+o de um pelo outro em um texto de ergonomia ou de organiza\'e7\'e3o do trabalho muda completamente o sentido da frase..
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi576\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A }{\b\i coloquialidade}{ \'e9 uma caracter\'edstica perigosa se presente num texto cientifico, por introduzir ambig\'fcidades e possibilidades de interpreta\'e7\'f5
+es bifurcantes. A linguagem coloquial \'e9 eivada de express\'f5es aproximativas como \'93mais ou menos\'94 , \'93muita gente\'94, \'93todo o mundo\'94 que tem algum efeito orat\'f3rio, mas que tornam o texto fugidio, na mente do leitor.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi576\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A }{\b\i reg\'eancia nominal}{ refere-se especialmente ao uso de pronomes. Artif\'edcio \'fa
+til para o estilo redacional em geral, no texto cientifico pode produzir desconforto, obrigando ao leitor retornar blocos acima para entender o sentido da frase. Pronomes simples ( eu, tu ele,..) s\'e3o em geral menos problem\'e1
+ticos do que pronomes demonstrativos  (este, esse, aquele). Nestes \'faltimos embora possa parecer pleon\'e1stico, \'e9 sempre melhor eliminar qualquer ambig\'fcidade colocando o substantivo: este relat\'f3rio, esse problema, aquela pe\'e7a. 
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi576\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {As }{\b\i confronta\'e7\'f5es impr\'f3prias}{ ocorre a cada vez que fazemos compara\'e7\'f5es ilegais ou abusivas. Num texto cientifico as compara\'e7\'f5
+es devem se estabelecer entre compar\'e1veis e mediante termos de compara\'e7\'e3o bastante expl\'edcitos e pertinentes. Por exemplo a infeliz express\'e3o de Taylor \endash  \'93 }{\i quero homens com a intelig\'eancia de um boi}{ \'93 \endash 
+ se revela totalmente inadequada em termos cient\'edficos.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par {\listtext\pard\plain\s2 \b\i \hich\af0\dbch\af0\loch\f0 4.3\tab}}\pard\plain \s2\qj \fi-576\li576\ri0\keepn\nowidctlpar\jclisttab\tx576\faauto\ls18\ilvl1\outlinelevel1\adjustright\rin0\lin576\itap0 
+\b\i\fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {Aspectos \'e9ticos envolvidos.
+\par }\pard\plain \qj \fi576\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {
+\par O \'faltimo aspecto de qualidade de um artigo diz respeito \'e0 sua dimens\'e3o \'e9tica. Os aspectos \'e9ticos em um texto referem-se \'e0 autoria, ao direito autoral sobre dados e materiais e acerca da referencia\'e7\'e3o.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A }{\b\i autoria}{ est\'e1 reservada \'e0s pessoas que primariamente contribu\'edram ou que se responsabilizaram desde o in\'edcio sobre a realiza\'e7\'e3
+o de um estudo. Assim sendo a autoria n\'e3o se limita aos redatores da \'faltima vers\'e3o de um relat\'f3rio, ou da elabora\'e7\'e3o de algum artigo fundamentado em pesquisa de participa\'e7\'e3o de v\'e1
+rios agentes.O caso de artigos derivados de teses, a meu ver, se enquadra neste aspecto e deve sempre constar o autor e seu orientador, a menos que este \'faltimo se declare ausente do processo
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard\plain \s16\qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 { \tab O }{\b\i direito autoral}{ sobre dados e esquematiza\'e7\'f5es decorre deste primeiro aspecto, pois tanto \'e9
+ comum que estudantes se julguem os \'fanicos autores da pesquisa sobre a qual elaboraram sua tese, como existem docentes que se julgam propriet\'e1
+rios absolutos de todos os trabalhos que dirijam. Por isso recomendamos que estas modalidades de relacionamento sejam estabelecidas o mais cedo poss\'edvel no tempo de forma\'e7\'e3o do estudante e mediante algum protocolo formal. Em geral as publica\'e7
+\'f5es que se baseiam na pesquisa de tese, tem o nome do estudante citado como primeiro autor, e orientador como \'faltimo. A \'fanica exce\'e7\'e3o a esta regra ocorre quando se trata de artigo de revis\'e3o que integre o esfor\'e7o d
+e pesquisa. Neste caso a ordem de autoria dever\'e1 ser estabelecida mediante a aprecia\'e7\'e3o da contribui\'e7\'e3o relativa de orientador e orientado. 
+\par 
+\par }\pard \s16\qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A }{\b\i referencia\'e7\'e3o}{ se constitui no terceiro aspecto da eticidade da publica\'e7\'e3o, o que n\'e3o significa que seja menos im
+portante do que os demais. Dois aspectos aparecem aqui como  de suma import\'e2ncia deontol\'f3gica: a omiss\'e3o, o erro de atribui\'e7\'e3o e o cr\'e9dito simplesmente elogioso.
+\par }\pard \s16\qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \s16\qj \fi708\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {A }{\i omiss\'e3o de autoria}{ \'e9 o primeiro, e a nosso ver, o mais grave problema \'e9tico da publica\'e7\'e3o. A comunidade cient\'edfica valoriza tanto a publica\'e7\'e3
+o em si mesma como a referencia \'e0s publica\'e7\'f5es. Existem sistemas de valoriza\'e7\'e3o da pesquisa inteiramente baseados na referencia\'e7\'e3o de autores, como \'e9 o caso do Journal of Citation Reports (}{\field\flddirty{\*\fldinst {
+ HYPERLINK "http://www.jcr.org" }{{\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b02000000170000000c0000007700770077002e006a00630072002e006f00720067000000e0c9ea79f9bace118c8200aa004ba90b2800000068007400740070003a002f002f007700770077002e006a00630072002e006f00720067002f0000000000000000000000000000000000
+0000000000}}}{\fldrslt {\cs23\ul\cf2 www.jcr.org}}}{) que avalia o impacto de um artigo baseado nesta aprecia\'e7\'e3o. O JCR \'e9 empregado como crit\'e9rio de valoriza\'e7\'e3o por muitas institui\'e7\'f5es e organismos em todo o mundo. Isso d\'e1
+ uma dimens\'e3o da import\'e2ncia desse aspecto e do preju\'edzo profissional acarretado pela omiss\'e3o a um grupo de autores. 
+\par }\pard \s16\qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par A ignor\'e2ncia \'e0 origem da omiss\'e3o de autoria  n\'e3o necessariamente caracterizaria m\'e1-f\'e9, mas  certamente indica uma insuficiente busca bibliogr\'e1fica. Quando a omiss\'e3o envolve pessoas pr\'f3ximas, o assunto \'e9
+ extremamente delicado.   No entanto cabe  
+\par {\listtext\pard\plain\s1 \b\fs32\kerning32 \hich\af0\dbch\af0\loch\f0 5  \tab}}\pard\plain \s1\qj \fi-432\li432\ri0\sb240\sa60\keepn\nowidctlpar\jclisttab\tx432\faauto\ls18\outlinelevel0\adjustright\rin0\lin432\itap0 
+\b\fs26\lang1046\langfe1046\kerning32\cgrid\langnp1046\langfenp1046 {Conclus\'e3o
+\par }\pard\plain \qj \fi432\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 \fs24\lang1046\langfe1046\cgrid\langnp1046\langfenp1046 {O artigo buscou caracterizar a natureza e o tipo de artigos mais comuns, tecer coment\'e1
+rios sobre os componentes da qualidade e indicar algumas oportunidades de melhoria.
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {
+\par }\pard \qj \fi432\li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {Conclu\'edmos este artigo sublinhando que a elabora\'e7\'e3o de um artigo cient\'edfico \'e9 parte }{\i sine qua non}{
+ do processo de pesquisa e permitem avaliar se a pesquisa atende aos requisitos de um mestrado, de um doutorado.
+\par 
+\par }\pard \qj \li0\ri0\nowidctlpar\faauto\adjustright\rin0\lin0\itap0 {\b Referencias
+\par }{\fs20\cf1 Feitosa, V. ( 1986) A comunica\'e7\'e3o na tecnologia. Editora Brasiliense, S\'e3o Paulo
+\par Feitosa V  e Vidal M.C. (1991) - The Ergonomics Of Scientific Text Production. Em Queinnec Y., & Daniellou F.  Designing for Everyone, Londres, Taylor and Francis, 1991, pp. 341-344;
+\par 
+\par }{\fs20 American Psychological Association ( 2000 ) \endash  Publication Manual of the  American Psychological Association , 4th. Edition,  Washington 
+\par 
+\par Eysenck  M.W. (1977) Human  memory: Theory, research and individual differences . Pergamon. 
+\par Goodenough, (1976)  citado em Eysenck (1977).
+\par Teiger, C. Laville A., Duraafourg, J Guerin F. e Daniellou F.   (1980) Fic\'e7\'e3o e Realidade no trabalho oper\'e1rio.  }{\fs20 Les  Cahiers Fran\'e7ais no. 209, Janvier - F\'e9vrier  1983, La Documentation Fran\'e7aise,  pp.39-45}{\fs20 
+\par Vidal , M.C., Tavares. S.R. e Fonseca M.B. (1978) \endash   A influ\'eancia dos ru\'eddos nos trabalhos de precis\'e3o. Monografia de conclus\'e3o do cursos de gradua\'e7\'e3o em Engenharia de Produ\'e7\'e3o, POLI/UFRJ.
+\par }}

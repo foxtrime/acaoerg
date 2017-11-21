@@ -1,0 +1,107 @@
+body{
+	overflow-x:hidden;
+	text-align:center;
+	background:#FFFFFF;
+	font-family:verdana,arial,helvetica,sans-serif;
+	font-size:80%;
+	margin:0px;
+	padding:0px
+}
+#corpo{
+	text-align:right;
+}
+#corpo a {
+	color: #3333FF;
+}
+#conteudo {
+	background-color: #EEEEEE;
+	text-align: left;
+	border-right: 2px solid #ffcc66;
+	border-bottom: 2px solid #ffcc66;
+	border-left: 2px solid #ffcc66;
+	width: 400px;
+	margin-top: 40px;
+	margin-bottom: 100px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#titulo  { 
+	background-color: #FFCC66;
+	text-align: right;
+}
+#adicionarExemplar  {
+
+	float: left;
+	text-align:right;
+	width:44%;
+	padding: 20px;
+	margin: 2%;
+	border-width: 0px;
+	background-color: #33CCCC;
+
+}
+
+.esquerda {
+
+	float: left;
+	text-align:right;
+	width: 88%;
+	padding: 20px;
+	margin: 2%;
+	border-width: 0px;
+	background-color: #33CCCC;
+
+}
+#adicionarPalavraChave  {
+
+	float: left;
+	text-align:right;
+	width:44%;
+	padding: 20px;
+	margin: 2%;
+	border-width: 0px;
+	background-color: #3399CC;
+
+}
+
+#retificar	 {
+	float: left;
+	text-align:right;
+	width:44%;
+	padding: 20px;
+	margin: 2%;
+	border-width: 0px;
+	background-color: #996699;
+}
+
+.item   { position: absolute; width:250px; visibility: hidden }
+	  
+.caixa   { color: #FFFFFF; font-size: 12px; text-decoration: none; background-color: #669; text-align: center; padding: 5px; position: relative; top: 0px; left: 0px; display: block }
+.menu a  { color: #FFFFFF; font-size: 12px; text-decoration: none; background-color: #669; text-align: center; padding: 5px; position: relative; top: 0px; left: 0px; display: block }
+.menu a:hover { color: #000000; background-color: #CCFF00; }
+.menu   { float: left; width: 50% }
+a span{
+	display:none
+}
+
+h3 { }
+.botao  { background-color: #d1def0; margin-right: 30px; margin-left: 30px; border: solid 0px }
+
+input,label,select {
+	margin-top: 5px;
+}
+
+
+#rodape     {
+	background-color: #7373A2;
+	text-align: center;
+	padding: 10px;
+	clear: both;
+}
+#rodape a    { color: white; font-size: 14px; padding-right: 20px; padding-left: 20px }
+#rodape a:hover { color: #000000; background-color: #E1FF6C;}
+hr {
+	margin-top: 0px;
+}

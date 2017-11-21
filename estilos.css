@@ -1,0 +1,256 @@
+body{
+  margin: 0px;
+}
+
+            
+.fundoLogoTop{
+  background-color: #004400;
+}
+
+fieldset{
+  height: 20px;
+  width: 286px;
+  background-color: #dddddd;
+}
+ 
+
+.menuMeio{
+  border-top: 1px solid #425C77;
+    color: #336699;
+    font-family:verdana;
+   font-size:12px;
+    padding: 0 10px 0 15px;
+
+}
+
+.selectIn{
+    text-decoration-color: #1274BC;
+    height: 20px;
+    font-family: verdana;
+    font-size: 12px;
+    color: #1274BC;
+
+}
+
+/**************
+*   exibe revista em edicoes.php
+**************/
+.revista{
+  position: relative;
+  top: 0;
+  left: 0;
+  visibility: visible;
+  border-top: 3px solid #eeeeee;
+  border-right: 3px solid #eeeeee;
+  border-bottom: 3px solid #eeeeee;
+}
+
+.top{
+  background-color: #2C3E50;
+}
+.titulo{
+  font-family: verdana;
+  color: #000022;
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+.tituloB{
+  font-family: verdana;
+  color: #000022;
+  font-size: 9pt;
+  font-weight: bold;
+}
+
+.text{
+  font-family: verdana;
+  color: #000022;
+  font-size: 8pt;
+  text-align: justify;
+  line-height: 200%;
+}
+
+.textAdmin{
+  font-family: verdana;
+  color: #000022;
+  font-size: 8pt;
+}
+
+.textAdminMensagem{
+  font-family: verdana;
+  color: #B4C5D6;
+  font-size: 8pt;
+}
+
+.rodape{
+  font-family: verdana;
+  color: #336699;
+  font-size: 7pt;
+}
+
+.menuSup{
+  font-family: verdana;
+  color: #336699;
+  font-size: 7pt;
+}
+
+.textBusca{
+  font-family: verdana;
+  color: #000022;
+  font-size: 8pt;
+  line-height: 200%;
+}
+
+.textBuscaTop{
+  font-family: verdana;
+  color: #000022;
+  font-size: 8pt;
+  text-align: right;
+  line-height: 200%;
+  border-top: 3px solid #aaaaaa;
+  background-color: #cccccc;
+}
+
+.textMenuEdicoes{
+  font-family: verdana;
+  color: #000022;
+  font-size: 8pt;
+  line-height: 200%;
+  background-color: #eeeeee;
+  border-bottom: 3px solid #aaaaaa;
+  border-right: 3px solid #aaaaaa;
+  border-left: 3px solid #aaaaaa;
+}
+
+.carregando{
+  font-family: verdana;
+  color: #000022;
+  font-size: 8pt;
+  background-color: skyblue;
+  font-weight: bold;
+  width: 100px;
+  text-align: center;
+}
+
+.autor{
+  font-family: verdana;
+  color: #004477;
+  font-size: 7pt;
+  text-align: justify;
+  line-height: 200%;
+  font-weight: bold;
+}
+
+.tableConteudo{
+  background-color: #eeeeee;
+}
+
+.bordaRevista {
+  border-collapse: collapse;
+}
+
+.lineMenu{
+  background-image: url('img/lineUnderMenu.gif');
+  background-repeat: repeat-x;
+  height: 15px;
+}
+.next{
+  background-image: url('img/next.gif');
+  background-repeat: repeat-x;
+  height: 15px;
+}
+
+.divisoria{
+  background-image: url('img/divisoria.gif');
+  background-repeat: repeat-x;
+  height: 1px;
+}
+
+.linkForm{
+  font-family: verdana;
+  color: #0000FF;
+  font-size: 7pt;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #B4C5D6;
+  text-decoration: none;
+  font-family:verdana;
+  font-size:12px;
+}
+
+a:hover {
+  color: #65b3ed;
+  font-family:verdana;
+  font-size:12px;
+}
+
+a:link {
+  color: #094f94;
+  text-decoration: none;
+  font-family:verdana;
+ font-size:12px;
+  padding: 0 10px 0 15px;
+}
+          
+.topLogin{
+  background-image: url('img/topLogin.gif');
+  background-repeat: repeat-x;
+  height: 10px;
+}
+.downLogin{
+  background-image: url('img/downLogin.gif');
+  background-repeat: repeat-x;
+  height: 10px;
+}
+.pointer{
+  cursor: pointer;
+}
+
+.botaoSair{
+  background-image: url('img/botaoOut.jpg');
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.bemVindo{
+  font-family: verdana;
+  color: #B4C5D6;
+  font-size: 10pt;
+  text-align: right;
+}
+
+.desenvolv{
+  font-family: verdana;
+  color: #B4C5D6;
+  font-size: 8pt;
+  text-align: right;
+  width: 190px;
+  cursor: pointer;
+}
+
+.msgErro{
+  font-family: verdana;
+  color: red;
+  font-size: 8pt;
+  font-weight: bold;
+}
+.msgErroForm{
+  font-family: verdana;
+  color: red;
+  font-size: 8pt;
+}
+.menuAdmin{
+  font-family: verdana;
+  color: #0000FF;
+  text-decoration: underline;
+  font-size: 8pt;
+  line-height: 250%;
+  cursor: pointer;
+}
+
+

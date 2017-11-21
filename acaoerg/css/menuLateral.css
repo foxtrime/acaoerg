@@ -1,0 +1,40 @@
+/*
+verde 008284
+azul
+cinza c6c3c6
+C9E4FA
+*/
+
+body {
+	background-color: #C9E4FA;
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+#menulateral {  float: left; width: 100%; text-align: center; color: #FFFFFF; line-height: 150%; margin: 0px; border: 0px}
+.itemMenu {color: #000000; width: 100%; text-align: center; }
+.itemMenu a { color: #000000;  text-decoration: none; }
+.itemMenuSelecionado { background-color: #ffffff; color: #000000; text-align: center;}
+
+#menuEdicoes {  background-color: #003399; color: #ffffff; font-weight: bold; text-align: center; margin-top: 5px; border-width: 0px;}
+
+.itemMenuEdicoes { margin-left: 8px; background-color: #C9E4FA; color: #000000;  text-align: center; font-weight: bold}
+.itemMenuEdicoes a { color: #000000;  text-decoration: none; font-weight: bold;}
+.itemMenuEdicoesSelecionado { margin-left: 8px; background-color: #ffffff; color: #000000; text-align: center; font-weight: bold;}
+
+
+#menuBusca {  background-color: #003399; margin-top: 3px; color: #FFFFFF; font-weight: bold; text-align: center; border-width: 0px;}
+.itemMenuBusca { margin-left: 8px; background-color: #C9E4FA; color: #000000; }
+#menuLateral form {  margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px}
+
+
+input {	font-size: 8pt;}
+select {	font-size: 8pt;}
+#botao { margin-top: 4px}
+
+.texto { width : 80%; }
+form {line-height: 100%;}
+
