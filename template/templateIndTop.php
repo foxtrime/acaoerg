@@ -26,7 +26,7 @@
             
             <form class="form-inline pull-xs-right" method="post" action="buscar.php" name="buscaIndex">
                 <input class="form-control" type="text" name="busca" type="text" onfocus="mudacor(this,'#BDE4F4')" onblur="mudacor(this,'white')">
-                    <button class="btn btn-outline-info" type="submit">Buscar</button>
+                    <button class="css3button" type="submit">Buscar</button>
             </form>
 
 
